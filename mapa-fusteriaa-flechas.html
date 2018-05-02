@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+				
+			<link rel="stylesheet" type="text/css" href="./css/styles.css"/>
+			<link rel="stylesheet" type="text/css" href="./css/flechas.css"/>
+			<script type="text/javascript" src="./js/javascript.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            
+		</head>
+		<body>
+			<!-- Proyecto mapa fusteria -->
+
+			<!--Menu desplegable -->
+			<div class="navbar">
+			  <div class="dropdown">
+				<button class="dropbtn" id="button3" onclick="myFunction()">
+				  <i class="fa-caret-down">Nos dirigimos a: </i>
+				</button>
+				<div class="dropdown-content" id="myDropdown">
+				  <a href="#"> <button onclick="mostrar()" id="button2" type="button" class="btn btn-primary">Grado Superior</button></a>
+				  <a href="#"> <button onclick="mostrar()" id="button2" type="button" class="btn btn-primary">Grado Medio Informatica</button></a>
+				  <a href="#"> <button onclick="mostrar()" id="button2" type="button" class="btn btn-primary">Fusteria</button></a>
+				  <input class="button" id="button" type="button" onclick="verform()" value="esconder flechas">
+				</div>
+			  </div> 
+			</div>
+			<!-- Imagen -->
+			<div id="gradomedioinfo">
+				<!--<img id="id_img_fondo" src="./images/mapa-fusta.jpg">-->
+				<img class="img-responsive" id="id_img_fondo" src="./images/mapa_grado_medio.png">
+			</div>   
+			<!-- flechas ocultas al principio -->
+				
+				<div id="flechas_arriba" class="arriba1" hidden>
+					<img class="arriba1" src="./images/arriba.gif" id="flechas_arriba">
+					<img class="arriba1" src="./images/arriba.gif" id="flechas_arriba">
+					<img class="arriba1" src="./images/arriba.gif" id="flechas_arriba">
+					<img class="arriba1" src="./images/arriba.gif" id="flechas_arriba">
+				</div>				
+				<div class="derecha2" id="flechas" hidden>
+					<img id="flechas" class="derecha2" src="./images/derecha2.gif">
+				</div>
+		
+		</body>
+	</html>
