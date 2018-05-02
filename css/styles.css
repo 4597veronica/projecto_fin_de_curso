@@ -1,0 +1,96 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}        
+        /*Estilo del menu desplegable*/
+        .navbar {
+            overflow: auto;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .navbar a {
+            float: left;
+            font-size: 20px;
+            color: white;
+            text-align: center;
+            padding: 15% 15%;
+            text-decoration: none;
+        }
+		 /*menu */
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+        
+		/*Primer boton*/
+        .dropdown .dropbtn {
+            cursor: pointer;
+            font-size: 16px;    
+            border: none;
+            outline: none;
+            color: black;
+            padding: 15% 15% 15% 15%;
+            background-color: f9f9f9;
+            font-family: inherit;
+            margin: 0;
+        }
+
+        .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+			background-color: #f9f9f9;        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+			position:relative;            
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+		
+        .dropdown-content a:hover {
+            background-color: #ddd;
+            position: relative;
+        }
+
+        .show {
+            display: block;
+            position: absolute;
+        }
+
+        .recorrido{
+        		position: absolute;
+        }
+        
+        /*Botones del menu */
+        #button {
+			background-color: #950350;
+			display: inline-block;
+			color: white;
+		}			
+		#button2{
+			background-color: #555555;
+			display: inline-block;
+			color: white;		
+		}
+		#button2:hover{
+			background-color: #555555;
+			color: white;
+			display: inline-block;
+			box-shadow: 0 8px 16px 0 rgba(0,0,0,0.9), 0 6px 20px 0 rgba(0,0,0,0.19);			
+		}
+		#button3:hover{
+			background-color: #555555;
+			color: white;
+			display: inline-block;
+			box-shadow: 0 8px 16px 0 rgba(0,0,0,0.9), 0 6px 20px 0 rgba(0,0,0,0.19);			
+		}
+      

@@ -1,0 +1,101 @@
+
+/* Para un mobil*/
+     
+        
+        .arriba1{ 
+            position: absolute;
+            margin-top: 10%;
+            margin-left: 25%;
+            height: auto;
+            width: 5%;
+            position:fixed;
+        } 
+     
+           #flechas{
+            position: absolute; 
+            margin-left: 20%;
+            margin-top: 22%;
+            height: auto;
+            width: 5%;
+            max-width: 100%;
+            position:fixed;
+
+        }
+
+      
+
+        /* Imagen mapa*/
+        #gradomedioinfo{
+            position: absolute;
+            width: auto/9; /*Bug de ie8*/
+            height: auto;
+            max-width: 100% ;
+            background-repeat:no-repeat;
+        }
+        
+    	   #id_img_fondo{  
+            background-size 50% 50%;
+       	    width: 100%; 
+            height: 100%;
+            top:0;
+            left:0;
+            position:fixed;
+            z-index: -1;   
+   	  }
+
+/*Para un ordenador */
+@media only screen and (min-width: 992px){ 
+        #flechas{
+            position: relative; 
+            margin-left: 35.5%;
+            margin-top: 1%;
+            height: 20%;
+            width: 20%;
+            max-width: 100%;
+        }
+  		
+        
+        #flechas_arriba{ 
+            position: relative;
+            margin-left: 45.35%;
+            height: 15%;
+            width: 15%;            
+            margin-top: 3%;
+
+           
+        } 
+        
+        #arriba1{
+            max-width:100%;				
+            height:20%;
+            width:20%;
+            margin-left:60.5%; 
+
+   	  	}
+
+        /* Imagen mapa*/
+        #gradomedioinfo{
+            position: absolute;
+            width: auto/9; /*Bug de ie8*/
+            height: auto;
+            max-width: 100% ;
+            background-repeat:no-repeat;
+        }
+        
+    	   #id_img_fondo{  
+       	    width: 100%; 
+            height: 100%;
+            top:0;
+            left:0;
+            position:fixed;
+            z-index: -1;   
+   	  }
+}
+
+
+
+
+
+
+
+
